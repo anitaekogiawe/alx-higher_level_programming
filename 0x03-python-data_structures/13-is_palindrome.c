@@ -75,6 +75,10 @@ int is_palindrome(listint_t **head)
 	listint_t *scn_half, *middle;
 	int isp;
 
+	slow = fast = prev_slow = *head;
+	middle = NULL;
+	isp = 1;
+
 	if (*head != NULL && (*head)->next != NULL)
 	{
 		while (fast != NULL && fast->next != NULL)
