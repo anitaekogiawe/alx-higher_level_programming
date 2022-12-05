@@ -7,4 +7,4 @@ def no_c(my_string):
         if my_string[i] == "c" or my_string[i] == "C":
             continue
         buf = buf + my_string[i]
-        return buf
+    return buf
