@@ -2,6 +2,7 @@
 
 /**
  * reverse - reverses the second half of the list
+ *
  * @h_r: head of the second half
  * Return: no return
  */
@@ -27,6 +28,7 @@ void reverse(listint_t **h_r)
 
 /**
  * compare - compares each int of the list
+ *
  * @h1: head of the first half
  * @h2: head of the second half
  * Return: 1 if are equals, 0 if not
